@@ -24,49 +24,49 @@
 
 @font-face {
   font-family: "BadScript";
-  src: url(fonts/BadScript-Regular.woff2) format("woff2"), url(fonts/BadScript-Regular.woff) format("woff"), url(fonts/BadScript-Regular.ttf) format("truetype");
+  src: url(../fonts/BadScript-Regular.woff2) format("woff2"), url(../fonts/BadScript-Regular.woff) format("woff"), url(../fonts/BadScript-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-Regular.woff2) format("woff2"), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("truetype");
+  src: url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-Medium.woff2) format("woff2"), url(fonts/Montserrat-Medium.woff) format("woff"), url(fonts/Montserrat-Medium.ttf) format("truetype");
+  src: url(../fonts/Montserrat-Medium.woff2) format("woff2"), url(../fonts/Montserrat-Medium.woff) format("woff"), url(../fonts/Montserrat-Medium.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-SemiBold.woff2) format("woff2"), url(fonts/Montserrat-SemiBold.woff) format("woff"), url(fonts/Montserrat-SemiBold.ttf) format("truetype");
+  src: url(../fonts/Montserrat-SemiBold.woff2) format("woff2"), url(../fonts/Montserrat-SemiBold.woff) format("woff"), url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-SemiBoldItalic.woff2) format("woff2"), url(fonts/Montserrat-SemiBoldItalic.woff) format("woff"), url(fonts/Montserrat-SemiBoldItalic.ttf) format("truetype");
+  src: url(../fonts/Montserrat-SemiBoldItalic.woff2) format("woff2"), url(../fonts/Montserrat-SemiBoldItalic.woff) format("woff"), url(../fonts/Montserrat-SemiBoldItalic.ttf) format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-Bold.woff2) format("woff2"), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("truetype");
+  src: url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(fonts/Montserrat-BoldItalic.woff2) format("woff2"), url(fonts/Montserrat-BoldItalic.woff) format("woff"), url(fonts/Montserrat-BoldItalic.ttf) format("truetype");
+  src: url(../fonts/Montserrat-BoldItalic.woff2) format("woff2"), url(../fonts/Montserrat-BoldItalic.woff) format("woff"), url(../fonts/Montserrat-BoldItalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -795,7 +795,7 @@ img {
   }
 }
 .afraid__star-pink {
-  background: url(images/pink_star.png) top left/contain no-repeat;
+  background: url(../images/pink_star.png) top left/contain no-repeat;
 }
 .afraid__star-year {
   font-family: "Montserrat", sans-serif;
@@ -845,7 +845,7 @@ img {
   }
 }
 .afraid__star-mint {
-  background: url(images/mint_star.png) top left/contain no-repeat;
+  background: url(../images/mint_star.png) top left/contain no-repeat;
 }
 .afraid__bottom {
   font-family: "Montserrat", sans-serif;
@@ -973,7 +973,7 @@ img {
   right: 0;
   bottom: -20px;
   height: 22px;
-  background: url(icons/mint_line.svg) top left/contain no-repeat;
+  background: url(../icons/mint_line.svg) top left/contain no-repeat;
 }
 @media screen and (max-width: 767px) {
   .tabs__subtitle:after {
@@ -1237,7 +1237,7 @@ img {
   }
 }
 .success__months:first-child::after {
-  content: url(icons/curved_arrow.svg);
+  content: url(../icons/curved_arrow.svg);
   position: absolute;
   width: 100px;
   top: -10px;
@@ -1257,7 +1257,7 @@ img {
   }
 }
 .success__months:nth-child(2)::after {
-  content: url(icons/curved_arrow.svg);
+  content: url(../icons/curved_arrow.svg);
   position: absolute;
   width: 80px;
   bottom: 15px;
@@ -1489,7 +1489,7 @@ img {
   }
 }
 .schedule__exam span:before {
-  content: url(icons/crown.svg);
+  content: url(../icons/crown.svg);
   position: absolute;
   left: -100%;
   top: -50%;
@@ -1501,7 +1501,7 @@ img {
   }
 }
 .schedule__exam span:after {
-  content: url(icons/crown.svg);
+  content: url(../icons/crown.svg);
   position: absolute;
   right: -115%;
   top: -15px;
@@ -1538,7 +1538,7 @@ img {
   font-weight: 500;
 }
 .schedule__question span:after {
-  content: url(icons/question_black.svg);
+  content: url(../icons/question_black.svg);
   position: absolute;
   right: -35px;
   top: -5px;
@@ -1591,7 +1591,7 @@ img {
           flex-direction: column;
   width: 255px;
   height: 255px;
-  background: url(images/mint_star.png) top left/contain no-repeat;
+  background: url(../images/mint_star.png) top left/contain no-repeat;
   margin: -8px;
 }
 @media screen and (max-width: 991px) {
@@ -1724,7 +1724,7 @@ img {
   padding: 80px;
   border-radius: 42px;
   margin: 0 auto;
-  background: rgb(88, 183, 181) url(icons/pull.svg) right 10% bottom 25% no-repeat;
+  background: rgb(88, 183, 181) url(../icons/pull.svg) right 10% bottom 25% no-repeat;
 }
 @media screen and (max-width: 991px) {
   .pull__inner {
@@ -2077,7 +2077,7 @@ img {
 }
 
 .dont_know {
-  background: #E87AA1 url(icons/hands.svg) top right no-repeat;
+  background: #E87AA1 url(../icons/hands.svg) top right no-repeat;
 }
 @media screen and (max-width: 1249px) {
   .dont_know {
@@ -2154,7 +2154,7 @@ img {
   }
 }
 .dont_know-subtitle:before {
-  content: url(icons/white_line.svg);
+  content: url(../icons/white_line.svg);
   position: absolute;
   height: 20px;
   left: 0;
@@ -2219,15 +2219,15 @@ img {
 }
 .dont_know-question:nth-child(1) {
   margin-right: auto;
-  background: #E87AA1 url(icons/curcle.svg) top right no-repeat;
+  background: #E87AA1 url(../icons/curcle.svg) top right no-repeat;
 }
 .dont_know-question:nth-child(2) {
-  background: #E87AA1 url(icons/curcle_big.svg) top right/contain no-repeat;
+  background: #E87AA1 url(../icons/curcle_big.svg) top right/contain no-repeat;
   max-width: 400px;
 }
 .dont_know-question:nth-child(3) {
   margin-left: auto;
-  background: #E87AA1 url(icons/curcle.svg) top right no-repeat;
+  background: #E87AA1 url(../icons/curcle.svg) top right no-repeat;
 }
 @media screen and (max-width: 991px) {
   .dont_know-question:nth-child(1) {
@@ -2278,7 +2278,7 @@ img {
   bottom: -15px;
   height: 15px;
   width: 265px;
-  background: url(icons/mint_line.svg) top left/contain no-repeat;
+  background: url(../icons/mint_line.svg) top left/contain no-repeat;
 }
 @media screen and (max-width: 991px) {
   .whole__title-bottom:before {
@@ -2354,7 +2354,7 @@ img {
   font-size: 24px;
 }
 .whole .tariff__item-bottom_coast span:before {
-  content: url(icons/line.svg);
+  content: url(../icons/line.svg);
   position: absolute;
   top: 0;
   left: 0;
@@ -2421,7 +2421,7 @@ img {
   position: relative;
 }
 .accordion__item-title:after {
-  content: url(icons/tab_arrow.svg);
+  content: url(../icons/tab_arrow.svg);
   position: relative;
   right: 0;
   -webkit-transition: -webkit-transform 0.3s linear;
@@ -2469,7 +2469,7 @@ img {
   width: 100%;
   bottom: -25%;
   height: 270px;
-  background: url(icons/footer_wave.svg) top left/contain no-repeat;
+  background: url(../icons/footer_wave.svg) top left/contain no-repeat;
 }
 @media screen and (max-width: 767px) {
   .welcome:after {
@@ -2516,7 +2516,7 @@ img {
   }
 }
 .welcome__title:after {
-  content: url(icons/pro100.svg);
+  content: url(../icons/pro100.svg);
   position: absolute;
   bottom: -70px;
   right: 30px;
@@ -2551,7 +2551,7 @@ img {
   transition: 0.3s linear;
 }
 .welcome__title-bottom span:after {
-  content: url(icons/question_white.svg);
+  content: url(../icons/question_white.svg);
   position: absolute;
   bottom: -7px;
   right: -33px;
@@ -3000,7 +3000,7 @@ section {
   right: 0;
   bottom: -15px;
   height: 15px;
-  background: url(icons/mint_line.svg) top left/contain no-repeat;
+  background: url(../icons/mint_line.svg) top left/contain no-repeat;
 }
 .section__top-left-img {
   height: 80px;
